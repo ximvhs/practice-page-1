@@ -1,0 +1,50 @@
+.box {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.toggle {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(85, 86, 86);
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.toggle.active {
+    background-color: brown;
+}
+
+.spinner.active {
+    transform: translateX(100px);
+}
+
+.toggle-control {
+    margin-top: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.test {
+    color: red;
+    font-size: 50px;
+}
